@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Home Controller</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="about">About</string>
+
+    <string name="alert_no">Alert no</string>
+    <string name="alert_yes">Alert yes</string>
+    <string name="alert_not_available">Alert not avalable</string>
+
+    <string name="auth_failed">Authentication failed</string>
+    <string name="web_client_id">70140126019-8echom47364hroq3spg37cv5injutbpc.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.exmple.android.projectmmt2017.AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="Android application uses HTTP to connect and transfer data to cloud - Firebase"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Designed by"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="Tran Ba Phong - 1412895"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Tran Uy Hoang - 1411344" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:text="Nguyen Tran Quoc Thai - 1412528"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:text="Doan Van Thinh - 1413767"/>
+
+</LinearLayout>

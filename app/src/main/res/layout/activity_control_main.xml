@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.exmple.android.projectmmt2017.ControlMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/red_box"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Led Red"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_red_light"
+            />
+
+        <Switch
+            android:id="@+id/red_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:showText="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/red_box"
+        android:id="@+id/blue_box"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Led Blue"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_blue_light"
+            />
+
+        <Switch
+            android:id="@+id/blue_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:showText="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/blue_box"
+        android:id="@+id/green_box"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Led Green"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_green_light"
+            />
+
+        <Switch
+            android:id="@+id/green_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:showText="true"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Sign out"
+        android:id="@+id/sign_out"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
